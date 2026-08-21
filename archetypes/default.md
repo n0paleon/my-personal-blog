@@ -4,4 +4,5 @@ draft: true
 layout: ""
 summary: ""
 placeholder: ""
+ShowBreadCrumbs: true
 ---
