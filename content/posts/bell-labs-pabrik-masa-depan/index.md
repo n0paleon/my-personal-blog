@@ -1,9 +1,9 @@
 ---
 title: "Bell Labs Pabrik Masa Depan yang Lahir dari Kabel Telepon"
 date: 2026-08-21T21:46:14+07:00
-draft: true
-tags: []
-categories: []
+draft: false
+tags: ["teknologi", "bell labs", "telepon", "fiber optic", "internet", "transistor"]
+categories: ["teknologi", "sejarah"]
 summary: ""
 ShowToc: true
 TocOpen: false
@@ -134,8 +134,9 @@ Bahkan banyak sistem operasi dan perangkat lunak infrastruktur di dunia saat ini
 ### 7. Cosmic Microwave Background - Bukti Teori Big Bang
 Kamu pernah denger tentang teori [Big Bang](https://id.wikipedia.org/wiki/The_Big_Bang_Theory)? Ini merupakan salah satu cerita Bell Labs yang paling keren lho.
 
-#### Kronologinya Begini
 {{<image src="Horn_Antenna-in_Holmdel,_New_Jersey_-_restoration1.jpg" alt="Antena Tanduk Bell Labs di Holmdel, New Jersey, AS">}}
+
+#### Kronologinya Begini
 **Tahun 1964, Bell Labs, Holmdel, New Jersey**. Dua fisikawan radio **Arno Penzias** dan **Robert Wilson** lagi ngulik antena tanduk super sensitif buat komunikasi satelit. Tapi mereka terus dapat gangguan.
 
 Ada dengungan/noise statis yang konstan di angka 3.5 Kelvin, datang dari semua arah langit, siang malam, musim apapun, nggak hilang-hilang. 
