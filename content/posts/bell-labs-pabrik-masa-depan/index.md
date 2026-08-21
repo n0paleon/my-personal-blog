@@ -1,5 +1,5 @@
 ---
-title: "Bell Labs Pabrik Masa Depan yang Lahir dari Kabel Telepon"
+title: "Bell Labs: Pabrik Masa Depan yang Lahir dari Kabel Telepon"
 date: 2026-08-21T21:46:14+07:00
 draft: false
 tags: ["teknologi", "bell labs", "telepon", "fiber optic", "internet", "transistor"]
