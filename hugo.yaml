@@ -1,4 +1,4 @@
-baseURL: http://localhost:1313/
+baseURL: https://n0pal.net/
 locale: en-us
 defaultContentLanguage: en
 title: Nopal's Blog
@@ -15,10 +15,10 @@ minify:
   disableXML: true
 
 params:
-  env: development
+  env: production
   description: Personal blog about technology and programming
   author: Nopaleon B.
-  keywords: [Blog, Portofolio]
+  keywords: [Nopaleon B portofolio, Muhammad Naufal Al Fattah, Programming Blog, Coding Tutorials]
   defaultTheme: auto # dark/light/auto
   disableThemeToggle: false
 
@@ -48,16 +48,14 @@ params:
     - name: rss
       url: "index.xml"
   
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
+  # analytics:
 
   assets:
     favicon: "favicon.ico"
     favicon16x16: "favicon-16x16.png"
     favicon32x32: "favicon-32x32.png"
     apple_touch_icon: "apple-touch-icon.png"
-    disableFingerprinting: true
+    disableFingerprinting: false
 
   fuseOpts:
     isCaseSensitive: false

@@ -1,6 +1,6 @@
-+++
-title = "Search"
-layout = "search"
-summary = "search"
-placeholder = "Cari artikel..."
-+++
+---
+title: "Search"
+layout: "search"
+summary: "search"
+placeholder: "Cari artikel..."
+---

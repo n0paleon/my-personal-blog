@@ -1,10 +1,10 @@
-+++
-title = 'Hello World — Post Pertama'
-date = 2026-08-21
-draft = false
-tags = ['hugo', 'blogging']
-summary = 'Post pertama di blog baru. Kenapa saya mulai nulis blog dan apa rencana ke depan.'
-+++
+---
+title: "Hello World — Post Pertama"
+date: 2026-08-21
+draft: false
+tags: ["hugo", "blogging"]
+summary: "Post pertama di blog baru. Kenapa saya mulai nulis blog dan apa rencana ke depan."
+---
 
 Akhirnya mulai nulis blog juga. Blog ini dibangun dengan **Hugo** static site generator
 dan theme **PaperMod** — cepat, simple, dan gampang di-deploy ke mana saja nanti.
