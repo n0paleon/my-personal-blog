@@ -1,7 +1,7 @@
 baseURL: https://n0pal.net/
 locale: en-us
 defaultContentLanguage: en
-title: Nopal's Blog
+title: n0paleon's Blog
 theme: PaperMod
 pagination:
   pagerSize: 5
@@ -56,6 +56,9 @@ params:
     favicon32x32: "favicon-32x32.png"
     apple_touch_icon: "apple-touch-icon.png"
     disableFingerprinting: false
+  
+  label:
+    text: "~/n0paleon.log"
 
   fuseOpts:
     isCaseSensitive: false
