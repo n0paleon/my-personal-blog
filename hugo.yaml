@@ -1,0 +1,121 @@
+baseURL: http://localhost:1313/
+locale: en-us
+defaultContentLanguage: en
+title: Nopal's Blog
+theme: PaperMod
+pagination:
+  pagerSize: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+
+params:
+  env: development
+  description: Personal blog about technology and programming
+  author: Nopaleon B.
+  keywords: [Blog, Portofolio]
+  defaultTheme: auto # dark/light/auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  TocOpen: false
+  UseHugoToc: true
+  DateFormat: January 2, 2006
+
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+
+  homeInfoParams:
+    Title: "Hi there 👋"
+    Content: Welcome to my blog. I write about technology and programming.
+
+  socialIcons:
+    - name: github
+      url: https://github.com/n0paleon
+    - name: linkedin
+      url: https://linkedin.com/in/nopaleon
+    - name: rss
+      url: "index.xml"
+  
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+
+  assets:
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+    disableFingerprinting: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+pygmentsUseClasses: true
+
+related:
+  includeNewer: true
+  threshold: 80
+  toLower: false
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 50
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # supaya bisa pakai HTML mentah di markdown (misal <details>)
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai  
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menus:
+  main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 5
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 15
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 25
