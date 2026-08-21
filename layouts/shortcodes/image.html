@@ -1,0 +1,39 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- $quality := .Get "quality" | default "75" -}}
+
+{{- $image := .Page.Resources.GetMatch $src -}}
+
+{{- if not $image -}}
+  {{ errorf "Image not found: %s" $src }}
+{{- end -}}
+
+{{- $sizes := slice 400 800 1200 -}}
+{{- $srcset := slice -}}
+
+{{- range $sizes -}}
+  {{- if le . $image.Width -}}
+    {{- $resized := $image.Resize (printf "%dx webp q%s" . $quality) -}}
+    {{- $srcset = $srcset | append (printf "%s %dw" $resized.RelPermalink .) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $fallback := $image.Resize (printf "1200x webp q%s" $quality) -}}
+
+{{- if not $alt -}}
+  {{- $alt = path.BaseName $image.Name -}}
+  {{- $alt = replace $alt "-" " " -}}
+  {{- $alt = replace $alt "_" " " -}}
+{{- end -}}
+
+<img
+  src="{{ $fallback.RelPermalink }}"
+  alt="{{ $alt }}"
+  {{- if $srcset }} srcset="{{ delimit $srcset ", " }}"{{ end }}
+  sizes="(max-width: 768px) 100vw, 800px"
+  width="{{ $fallback.Width }}"
+  height="{{ $fallback.Height }}"
+  loading="lazy"
+  decoding="async"
+  style="width: 100%; height: auto;"
+>
