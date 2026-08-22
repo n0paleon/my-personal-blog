@@ -15,12 +15,12 @@ cover:
     relative: true # when using page bundles set this to true
 ---
 
-Di zaman serba canggih sekarang ini, siapa sih yang nggak tau apa itu AI, chip, laser bahkan internet? Tapi mari kita coba hitung, seberapa jauh kita kenal dengan siapa yang mengembangkan teknologi-teknologi tersebut awalnya? Pernah nggak kita mikir siapa sih yang ciptain chip sampai komputer atau bahkan ponsel kita hari ini hingga memungkinkan kita memakainya dengan mudah?
+Di zaman serba canggih sekarang ini, siapa sih yang nggak tahu apa itu AI, chip, laser bahkan internet? Tapi mari kita coba hitung, seberapa jauh kita kenal dengan siapa yang mengembangkan teknologi-teknologi tersebut awalnya? Pernah nggak kita mikir siapa sih yang ciptain chip sampai komputer atau bahkan ponsel kita hari ini hingga memungkinkan kita memakainya dengan mudah?
 
-## Perusahaan Telepon Raksasa Pertama di Amerika
-Sebelum kenalan dengan Bell Labs, penting banget nih buat tau lebih dulu tentang induknya yaitu AT&T. Intinya, AT&T adalah perusahaan telepon jarak jauh pertama di AS sekaligus di dunia. Perusahaan ini awalnya kecil banget, tapi mereka punya paten/lisensi atas teknologi telepon di Amerika, ini yang bikin mereka bisa bangun infrastruktur telepon secara masif.  
+## Perusahaan Telekomunikasi Raksasa di Amerika
+Sebelum kenalan dengan Bell Labs, penting banget nih buat tau lebih dulu tentang induknya yaitu AT&T. Intinya, AT&T adalah salah satu perusahaan telekomunikasi terbesar di AS. Perusahaan ini awalnya kecil banget, tapi mereka punya paten/lisensi atas teknologi telepon di Amerika, ini yang bikin mereka bisa bangun infrastruktur telekomunikasi secara masif.  
 
-Karena patennya hanya dimiliki AT&T, banyak kompetitornya tumbang karena nggak mampu bersaing dengan adil, AT&T berkembang sangat pesat dan memonopoli pasar telepon jarak jauh di Amerika Serikat. Monopoli ini terus diperparah karena pemerintah AS sendiri mengijinkan monopoli tersebut, tapi dengan syarat AT&T harus bangun infrastruktur telepon di seluruh negara bagian AS secara merata meskipun keuntungannya kecil.
+Karena patennya hanya dimiliki AT&T, banyak kompetitornya tumbang karena nggak mampu bersaing dengan adil, AT&T berkembang sangat pesat dan memonopoli pasar telepon jarak jauh di Amerika Serikat. Monopoli ini terus diperparah karena pemerintah AS sendiri mengizinkan monopoli tersebut, tapi dengan syarat AT&T harus bangun infrastruktur telepon di seluruh negara bagian AS secara merata meskipun keuntungannya kecil.
 
 Dari luasnya jaringan telepon inilah AT&T menguasai hampir seluruh pasar telekomunikasi di Amerika Serikat. Orang mau pakai telepon? nggak punya pilihan selain AT&T karena cuma mereka yang jangkauannya paling luas. Provider lain mau bikin infrastruktur telepon juga? terkendala lisensi/paten, mereka bisa bikinnya, tapi mereka nggak punya ijin sah untuk menggunakan teknologi telepon yang dipatenkan oleh AT&T.
 
@@ -35,19 +35,22 @@ Akhirnya mereka memutuskan membangun divisi riset khusus bernama Bell Labs, nama
 ## Dana Riset Unlimited dan Masalah Nyata
 Masih ingat AT&T tadi? perusahaan itu punya uang yang sangat besar, mereka tercatat mengalokasikan sekitar 1-3% pendapatannya pertahun untuk Bell Labs, kedengarannya kecil, tapi di tahun itu nilainya bisa setara miliaran dollar di tahun 2026 ini.
 
-Banyak ilmuwan dan engineer di AT&T diberikan kebebasan riset jangka panjang. Mindset utamanya bukan "riset 3-5 tahun, lalu hasilnya bisa dijual" bukan seperti itu. AT&T cuma kasih dana + masalah nyata, mereka tidak mengatur kapan hasil risetnya bisa dipakai. Bahkan jika butuh 20 tahun lagi untuk bisa dipakai, mereka tetap akan mendanaii Bell Labs.
+Banyak ilmuwan dan engineer di AT&T diberikan kebebasan riset jangka panjang. Mindset utamanya bukan "riset 3-5 tahun, lalu hasilnya bisa dijual" bukan seperti itu. AT&T cuma kasih dana + masalah nyata, mereka tidak mengatur kapan hasil risetnya bisa dipakai. Bahkan jika butuh 20 tahun lagi untuk bisa dipakai, mereka tetap akan mendanai Bell Labs.
 
-Hal itulah yang memicu banyak ilmuwan berani mengambil risiko besar dalam melakukan riset dasar, kombinasi dana unlimited + kebebasan kapan menentukan deadline. Mau beli mesin mekanis baru? tinggal ngomong, minggu depan barangnya sudah ada, tidak perlu cari dananya dulu dan tidak perlu mikir kapan bisa balik modal.
+Hal itulah yang memicu banyak ilmuwan berani mengambil risiko besar dalam melakukan riset dasar, kombinasi dana riset besar + kebebasan kapan menentukan deadline.
+
+Mereka tidak dipaksa menghasilkan return dalam waktu singkat.
+Mau beli mesin mekanis baru? tinggal ngomong, minggu depan barangnya sudah ada, tidak perlu cari dananya dulu dan tidak perlu mikir kapan bisa balik modal.
 
 ## Penemuan Penting yang Lahir di Bell Labs
 Sekarang kita bahas, apa aja sih yang ilmuwan dan engineer di Bell Labs lakukan sampai pengaruhnya sangat besar di bidang teknologi.
 
 ### 1. Transistor - 1947
-Ini mungkin salah satu penemuan Bell Labs yang paling monumental. Komputer, AI, roket, bahkan ponselmu tidak mungkin ada jika transistor tidak pernah diciptakan.
+Ini mungkin salah satu penemuan Bell Labs yang paling monumental. Sangat sulit membayangkan komputer modern, ponsel, dan hampir seluruh elektronik digital jika transistor tidak pernah ada.
 
 Sebelum transistor, perangkat elektronik menggunakan **vacuum tube** yang besar, panas, boros listrik, dan mudah rusak. AT&T membutuhkan komponen yang lebih baik untuk sistem telepon jarak jauh.
 
-Di Bell Labs, **John Barden**, **Walter Brattain**, dan **William Shockley** berhasil mengembangkan transistor pertama di dunia yang berhasil bekerja pada tahun 1947. Mereka bahkan mendapatkan **Nobel Fisika 1956**.
+Di Bell Labs, **John Bardeen**, **Walter Brattain**, dan **William Shockley** berhasil mengembangkan transistor pertama di dunia yang berhasil bekerja pada tahun 1947. Mereka bahkan mendapatkan **Nobel Fisika 1956**.
 
 Dampaknya luar biasa:
 ```mermaid
@@ -57,7 +60,7 @@ A[transistor] --> B[integrated circuit] --> C[mikroprosesor] --> D[komputer] -->
 Hampir seluruh elektronik modern berakar pada teknologi ini.
 
 ### 2. Teori Informasi - 1948
-**Claude Shannon**, seorang matematikawan sekaligus insinyur di Bell Labs, menerbitkan karya penting berjudul [_A Matemathical Theory of Communication_](https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication) pada tahun 1948.
+**Claude Shannon**, seorang matematikawan sekaligus insinyur di Bell Labs, menerbitkan karya penting berjudul [_A Mathematical Theory of Communication_](https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication) pada tahun 1948.
 
 Ia memperkenalkan konsep matematis untuk memahami **informasi**, termasuk konsep:
 - bit
@@ -119,7 +122,7 @@ Banyak sistem modern memiliki hubungan dengan Unix atau ide-idenya:
 - Server internet
 - dan berbagai sistem enterprise di seluruh dunia
 
-**Fun fact:** _ada cerita kalo dulunya Ken Thompson bikin Unix karena pengen main game favoritnya di komputer murah yang ditinggalkan di gudang kantornya._
+**Fun fact:** _ada cerita kalau dulunya Ken Thompson bikin Unix karena pengen main game favoritnya di komputer murah yang ditinggalkan di gudang kantornya._
 
 ### 6. Bahasa Pemrograman C
 **Dennis Ritchie** (yang juga ikut mengembangkan Unix sebelumnya) mengembangkan bahasa pemrograman C di Bell Labs, ia mendapatkan ide karena bahasa pemrograman B yang diciptakan **Ken Thompson** untuk Unix terlalu kaku dan sulit digunakan.
