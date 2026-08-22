@@ -47,10 +47,6 @@ params:
       url: https://linkedin.com/in/nopaleon
     - name: rss
       url: "index.xml"
-  
-  analytics:
-    google:
-      SiteVerificationTag: "G-2FRTBY1LSN"
 
   assets:
     favicon: "favicon.ico"
