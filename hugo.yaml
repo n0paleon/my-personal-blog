@@ -118,3 +118,9 @@ menus:
       name: About
       url: /about/
       weight: 25
+    - identifier: toko
+      name: Toko
+      url: https://store.cettalabs.com
+      params:
+        newtab: true
+      weight: 30
