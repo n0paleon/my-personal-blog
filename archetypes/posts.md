@@ -7,6 +7,7 @@ categories: []
 summary: ""
 ShowToc: true
 TocOpen: false
+series: []
 
 cover:
     image: "<image path/url>" # image path/url
