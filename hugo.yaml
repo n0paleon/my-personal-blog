@@ -14,6 +14,11 @@ buildExpired: false
 minify:
   disableXML: true
 
+taxonomies:
+  tag: tags
+  category: categories
+  series: series
+
 params:
   env: production
   description: Personal blog about technology and programming
