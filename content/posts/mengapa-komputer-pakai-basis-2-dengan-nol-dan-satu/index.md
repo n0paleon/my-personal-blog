@@ -2,8 +2,8 @@
 title: "Mengapa Komputer Pakai Basis 2 Dengan Nol dan Satu"
 date: 2026-09-04T22:28:04+07:00
 draft: true
-tags: []
-categories: []
+tags: ["binary", "bit", "komputer"]
+categories: ["Teknologi"]
 summary: ""
 ShowToc: true
 TocOpen: false
